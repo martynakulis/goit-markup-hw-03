@@ -1,0 +1,377 @@
+body {
+  --main-color: #212121;
+}
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: var(--main-color);
+}
+.logo,
+.logo-bottom {
+  --logo-color: #000000;
+  --logo-color-footer: #ffffff;
+}
+.web-color {
+  --web-color: #2196f3;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 215px;
+}
+.web-heading .line {
+  --border-color: #ececec;
+}
+.web-heading .line {
+  border-bottom: 1px solid var(--border-color);
+}
+.web-heading .container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.navigation {
+  display: flex;
+  margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.navigation-list:not(:last-child) {
+  margin-right: 46px;
+}
+.contact {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 371px;
+}
+.contact-list:not(:last-child) {
+  margin-right: 50px;
+}
+
+.logo,
+.logo-bottom {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--logo-color);
+}
+.logo-bottom {
+  color: var(--logo-color-footer);
+}
+.web-color {
+  color: var(--web-color);
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  --nav-color-hover: #2196f3;
+}
+.contact .link {
+  --contact-color: #757575;
+  --contact-color-hover: #2196f3;
+}
+.navigation .link {
+  color: var(--main-color);
+}
+
+.navigation .link,
+.contact .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--nav-color-hover);
+}
+.navigation .link:visited {
+  color: none;
+}
+.contact .link {
+  color: var(--contact-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--contact-color-hover);
+}
+.link,
+.logo,
+.logo-bottom {
+  text-decoration: none;
+}
+.style {
+  list-style-type: none;
+}
+.heading {
+  --heading-color: #2f303a;
+}
+.heading-title {
+  --heading-title-color: #ffffff;
+}
+.service {
+  --button-color: #2196f3;
+  --button-text-color: #ffffff;
+}
+.heading {
+  background-color: var(--heading-color);
+  width: 1600px;
+  height: 600px;
+}
+.heading-title {
+  color: var(--heading-title-color);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+.service {
+  width: 200px;
+  height: 50px;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin: 0 700px;
+}
+.section {
+  padding-top: 94px;
+}
+.section:nth-child(2),
+.section:last-child {
+  padding-bottom: 94px;
+}
+.content-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.content {
+  --paragraph-color: #757575;
+}
+.content {
+  color: var(--paragraph-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.container .main-content {
+  display: flex;
+  gap: 30px;
+}
+.content-list {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.headings {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.container .images {
+  display: flex;
+  padding-top: 50px;
+  gap: 30px;
+}
+.image-list {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.team-description {
+  --team-description-bgc: #ffffff;
+}
+.team-description {
+  background-color: var(--team-description-bgc);
+}
+.team {
+  --section-team-color: #f5f4fa;
+}
+.team {
+  background-color: var(--section-team-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.job-position {
+  --job-position-color: #757575;
+}
+.job-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--job-position-color);
+}
+.container .team-content {
+  display: flex;
+  padding-top: 50px;
+  gap: 30px;
+}
+.team-list {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.team-description {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.name {
+  padding: 30px 0 10px 0;
+}
+.job-position {
+  padding-bottom: 30px;
+}
+.contacts {
+  --footer-bgc-color: #2f303a;
+}
+.contacts {
+  background-color: var(--footer-bgc-color);
+}
+.contact-bottom {
+  --address-color: #ffffff;
+}
+.contact-bottom {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-color);
+}
+.mail,
+.phone-bottom {
+  --color-mail-phone: rgba(255, 255, 255, 0.6);
+  --color-mail-phone-hover: #2196f3;
+}
+.mail,
+.phone-bottom {
+  color: var(--color-mail-phone);
+}
+.mail:hover,
+.phone-bottom:hover,
+.mail:focus,
+.phone-bottom:focus {
+  color: var(--color-mail-phone-hover);
+}
+.contacts .container {
+  padding: 60px 0;
+}
+.logo-bottom {
+  padding-bottom: 20px;
+}
+.mail {
+  padding: 9px 0;
+}
+
+.filter {
+  --filter-bgc-color: #f5f4fa;
+}
+.filter:hover,
+.filter:focus {
+  --filter-bgc-color-hover: #2196f3;
+  --filter-color-hover: #ffffff;
+}
+.filter {
+  background-color: var(--filter-bgc-color);
+  width: 114px;
+  height: 38px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--filter-bgc-color-hover);
+  color: var(--filter-color-hover);
+}
+.description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.type {
+  --type-color: #757575;
+}
+.type {
+  color: var(--type-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.filter {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.filter-text {
+  width: 370px;
+}
+.container .filters {
+  display: flex;
+  margin: 100px 518px 56px 510px;
+}
+.container .filter-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.filter-content-list {
+  flex-basis: calc((100%-60px) / 3);
+}
