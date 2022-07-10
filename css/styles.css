@@ -47,6 +47,7 @@ img {
 }
 .web-heading .line {
   --border-color: #ececec;
+  width: 1600px;
 }
 .web-heading .line {
   border-bottom: 1px solid var(--border-color);
@@ -164,7 +165,7 @@ img {
 }
 .service {
   width: 200px;
-  height: 50px;
+  min-height: 50px;
   background-color: var(--button-color);
   color: var(--button-text-color);
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -177,6 +178,7 @@ img {
   border: none;
   border-radius: 4px;
   margin: 0 700px;
+  padding: 10px 41px 10px 41px;
 }
 .section {
   padding-top: 94px;
@@ -234,6 +236,7 @@ img {
 }
 .team {
   background-color: var(--section-team-color);
+  width: 1600px;
 }
 .name {
   font-weight: 500;
@@ -277,6 +280,7 @@ img {
 }
 .contacts {
   background-color: var(--footer-bgc-color);
+  width: 1600px;
 }
 .contact-bottom {
   --address-color: #ffffff;
@@ -306,11 +310,16 @@ img {
 .contacts .container {
   padding: 60px 0;
 }
-.logo-bottom {
-  padding-bottom: 20px;
+.contact-bottom {
+  padding-top: 20px;
+}
+.mail,
+.phone-bottom {
+  display: inline-block;
 }
 .mail {
-  padding: 9px 0;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .filter {
@@ -323,8 +332,6 @@ img {
 }
 .filter {
   background-color: var(--filter-bgc-color);
-  width: 114px;
-  height: 38px;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -334,6 +341,26 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+}
+.filter-list:nth-child(1) {
+  width: 121px;
+  margin-right: 8px;
+}
+.filter-list:nth-child(2) {
+  width: 93px;
+  margin-right: 8px;
+}
+.filter-list:nth-child(3) {
+  width: 114px;
+  margin-right: 8px;
+}
+.filter-list:nth-child(4) {
+  width: 91px;
+  margin-right: 8px;
+}
+.filter-list:nth-child(5) {
+  width: 121px;
+  margin-right: 8px;
 }
 .filter:hover,
 .filter:focus {
@@ -361,17 +388,33 @@ img {
   display: block;
 }
 .filter-text {
+  --border-filter-text: #eeeeee;
+}
+.filter-text {
   width: 370px;
+  border: 1px solid var(--border-filter-text);
 }
 .container .filters {
   display: flex;
-  margin: 100px 518px 56px 510px;
+  justify-content: center;
+  margin: 100px 303px 56px 295px;
 }
+.filter {
+  padding: 6px 22px 6px 22px;
+}
+
 .container .filter-content {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .filter-content-list {
-  flex-basis: calc((100%-60px) / 3);
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+.filter-text {
+  padding: 20px 0 20px 24px;
+}
+.description {
+  padding-bottom: 4px;
 }
