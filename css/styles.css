@@ -238,7 +238,6 @@ img {
 }
 .team {
   background-color: var(--section-team-color);
-  width: 1600px;
 }
 .name {
   font-weight: 500;
@@ -259,6 +258,7 @@ img {
 }
 .container .team-content {
   display: flex;
+  justify-content: center;
   padding-top: 50px;
   gap: 30px;
 }
