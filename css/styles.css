@@ -150,7 +150,6 @@ img {
 }
 .heading {
   background-color: var(--heading-color);
-  width: 1600px;
   height: 600px;
 }
 .heading-title {
@@ -282,7 +281,6 @@ img {
 }
 .contacts {
   background-color: var(--footer-bgc-color);
-  width: 1600px;
 }
 .contact-bottom {
   --address-color: #ffffff;
